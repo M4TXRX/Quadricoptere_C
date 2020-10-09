@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "projet_quadricoptere", "projet_quadricoptere\projet_quadricoptere_6_2.cproj", "{47BB1038-0235-4B7B-A2A5-1E73754D0147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		default|AVR = default|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47BB1038-0235-4B7B-A2A5-1E73754D0147}.default|AVR.ActiveCfg = default|AVR
+		{47BB1038-0235-4B7B-A2A5-1E73754D0147}.default|AVR.Build.0 = default|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

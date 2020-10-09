@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-gcc.exe" -o projet_quadricoptere.elf  accels.o annexe.o asservissement.o asserv_haut.o centrale.o interruptions_init.o interruptions_routines.o main.o pid.o sonar.o timers_init.o voltmetre.o   -Wl,-Map="projet_quadricoptere.map" -Wl,--start-group  -Wl,--end-group -Wl,--gc-sections -mmcu=atmega1280  

@@ -1,0 +1,36 @@
+﻿------ Build started: Project: projet_quadricoptere, Configuration: default AVR ------
+Build started.
+Project "projet_quadricoptere.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.2\Vs\Compiler.targets" from project "Z:\2eme année\Projet quadricoptère\AVR Atmel Studio\projet_quadricoptere\projet_quadricoptere.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Program Files (x86)\Atmel\Atmel Studio 6.2\shellUtils
+		C:\Program Files (x86)\Atmel\Atmel Studio 6.2\shellUtils\make.exe all 
+		Building file: .././centrale.c
+		Invoking: AVR/GNU C Compiler : 4.8.1
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DF_CPU=16000000  -Os -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -mmcu=atmega1280 -c -gdwarf-2 -std=gnu99 -MD -MP -MF "centrale.d" -MT"centrale.d" -MT"centrale.o"   -o "centrale.o" ".././centrale.c" 
+		Finished building: .././centrale.c
+		Building target: projet_quadricoptere.elf
+		Invoking: AVR/GNU Linker : 4.8.1
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-gcc.exe" -o projet_quadricoptere.elf  accels.o annexe.o asservissement.o asserv_haut.o centrale.o interruptions_init.o interruptions_routines.o main.o pid.o sonar.o timers_init.o voltmetre.o   -Wl,-Map="projet_quadricoptere.map" -Wl,--start-group  -Wl,--end-group -Wl,--gc-sections -mmcu=atmega1280  
+		Finished building target: projet_quadricoptere.elf
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "projet_quadricoptere.elf" "projet_quadricoptere.hex"
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "projet_quadricoptere.elf" "projet_quadricoptere.eep" || exit 0
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-objdump.exe" -h -S "projet_quadricoptere.elf" > "projet_quadricoptere.lss"
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures "projet_quadricoptere.elf" "projet_quadricoptere.srec"
+		"C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR8 GCC\Native\3.4.1061\avr8-gnu-toolchain\bin\avr-size.exe" "projet_quadricoptere.elf"
+		   text	   data	    bss	    dec	    hex	filename
+		   4972	     22	    348	   5342	   14de	projet_quadricoptere.elf
+	Done executing task "RunCompilerTask".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	4994 bytes   3,8 % Full
+				Data Memory Usage 		:	370 bytes   4,5 % Full
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "projet_quadricoptere.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.2\Vs\Avr.common.targets" from project "Z:\2eme année\Projet quadricoptère\AVR Atmel Studio\projet_quadricoptere\projet_quadricoptere.cproj" (entry point):
+Done building target "Build" in project "projet_quadricoptere.cproj".
+Done building project "projet_quadricoptere.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
