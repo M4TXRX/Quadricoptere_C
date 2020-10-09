@@ -1,4 +1,5 @@
 ************************************************************************************************
+                          Projet réalisé dans le cadre de mes études
 ************************************************************************************************
 Projet de fin d'IUT très intéressant en groupe de 4 consistant à la réalisation d'un quadricoptère
 "fait maison", où nous avons programmé toutes les fonctions C sous AVRStudio sans utiliser de 
