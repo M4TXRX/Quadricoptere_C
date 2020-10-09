@@ -1,0 +1,4 @@
+il faut :
+-modifier ICR1 et y mettre la valeur 4999 pour le tester avec le programme du quadricoptère
+-mettre un prédiviseur de 64 car la nouvelle fréqence de notre carte est de 16 MHz (code pour prédiv de 64 : TCCR1B|=(1<<WGM13)|(1<<WGM12)|(1<<CS11)|(1<<CS10); )
+-modifier certainement les port de sortie DDRD en fonction de ceux disponibles sur la carte
