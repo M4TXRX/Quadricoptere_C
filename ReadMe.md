@@ -31,4 +31,4 @@ Téléchargez le dossier "Carte_RS232.zip" :
 
 Allez dans le répertoire "Code_C_AVRStudio/Code_C_quadricoptere_termine/" :
 
-* Ouvrez le projet dans AVR studio et téléversez le sur le microcontroleur ATMEGA 1280.
+* Ouvrez le projet dans AVR studio et téléversez le code compilé sur le microcontroleur ATMEGA 1280.
