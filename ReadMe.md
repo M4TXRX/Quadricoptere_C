@@ -16,14 +16,14 @@ Puis, il a fallu traiter dans notre programme les données reçues par la centra
 
 Après de nombreuses difficultés rencontrées et surmontées nous avons été le premier groupe depuis 2011 à être parvenu à ce que le quadricoptère vole de façon stable.
 
-Tous les détails du projet sont disponibles dans "Rapport_projet.pdf".
+__Tous les détails du projet sont disponibles dans "Rapport_projet.pdf".__
 
 Vidéo de démo du quadricoptère : https://www.youtube.com/watch?v=TGFyJ7FYfgc
 
 	
 ## Setup
 
-_Les conseils qui vont être donnés ici sont succins, il convient d'avoir de bonnes connaissances en informatique et en électronique, et de bien avoir analysé le rapport du projet et son code avant de le reprendre. En outre, les mesures du Roll, Pitch et Yaw étant faites avec une centrale inertielle MTi10-series qui coute plusieurs miliers d'euros (car très précis), cela rend difficile la reprise de ce projet si c'est pour le loisir. Je vous conseille si c'est le cas de vous tourner vers des projets utilisant un accéléromètre 3 axes et un gyroscope._
+_Les conseils qui vont être donnés ici sont succins, il convient d'avoir de bonnes connaissances en informatique et en électronique, et de bien avoir __analysé le rapport du projet__ et son code avant de le reprendre. En outre, les mesures du Roll, Pitch et Yaw étant faites avec une centrale inertielle MTi10-series qui coute plusieurs miliers d'euros (car très précis), cela rend difficile la reprise de ce projet si c'est pour le loisir. Je vous conseille si c'est le cas de vous tourner vers des projets utilisant un accéléromètre 3 axes et un gyroscope._
 
 _Ce projet ayant été réalisé il y a déjà un moment dans mes études, il manque malheureusement certaines informations. Je n'ai plus les schémas électroniques du microcontroleur ATMEGA 1280, ils sont donc à refaire. Il manque également les spécifications des moteurs, des hélices et de la batterie utilisés. Ces points sont donc à redéfinir._
 
