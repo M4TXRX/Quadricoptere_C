@@ -23,7 +23,7 @@ Vidéo de démo du quadricoptère : https://www.youtube.com/watch?v=TGFyJ7FYfgc
 	
 ## Setup
 
-_Les conseils qui vont être donnés ici sont succins, il convient d'avoir de bonnes connaissances en informatique et en électronique, et de bien avoir analysé le rapport du projet et son code avant de le reprendre. En outre, les mesures du Roll, Pitch et Yaw étant faites avec une centrale inertielle MTi10-series qui coute plusieurs miliers d'euros (car très précis), cela rend difficile la reprise de ce projet si c'est pour le loisir. Je vous conseille si c'est le cas de vous tourner vers des projets utilisant un accéléromètre 3 axes et un gyroscope. Je n'ai malheursement plus les schémas électroniques du microcontroleur ATMEGA 1280, ils sont donc à refaire. _
+_Les conseils qui vont être donnés ici sont succins, il convient d'avoir de bonnes connaissances en informatique et en électronique, et de bien avoir analysé le rapport du projet et son code avant de le reprendre. En outre, les mesures du Roll, Pitch et Yaw étant faites avec une centrale inertielle MTi10-series qui coute plusieurs miliers d'euros (car très précis), cela rend difficile la reprise de ce projet si c'est pour le loisir. Je vous conseille si c'est le cas de vous tourner vers des projets utilisant un accéléromètre 3 axes et un gyroscope. Je n'ai malheursement plus les schémas électroniques du microcontroleur ATMEGA 1280, ils sont donc à refaire._
 
 Téléchargez le dossier "Carte_RS232.zip" :
 
