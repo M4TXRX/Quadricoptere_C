@@ -4,7 +4,7 @@
 
 ## General info 
 
-LE PRINCIPAL INTERET DE CE PROJET EST D'ANALYSER LE CODE DEVELOPPE POUR LA STABILISATION D'UN QUADRICOPTERE EN VOL. L'UTILISATION D'UNE CENTRALE INERTIELLE MTi-10-series NORMALEMENT UTILISE DANS LE MILIEU AERONOTIQUE PROFESSIONNEL REND D'AUTANT PLUS CE PROJET INTERESSANT.
+LE PRINCIPAL INTERET DE CE PROJET EST D'ANALYSER LE CODE DEVELOPPE. CELUI-CI A POUR BUT LA STABILISATION D'UN QUADRICOPTERE EN VOL. L'UTILISATION D'UNE CENTRALE INERTIELLE MTi-10-series NORMALEMENT UTILISE DANS LE MILIEU AERONOTIQUE PROFESSIONNEL REND D'AUTANT PLUS CE PROJET INTERESSANT.
 
 Ce projet tutoré en groupe de quatre était dans le cadre de notre dernière année d'IUT GEII. Nous y avons consacré un total de 94h00 :
 Le projet quadricoptère est un projet qui a consisté à concevoir et à programmer un quadricoptère télécommandé en C (sur la plateforme __AVR Studio__). Ce projet qui avait été commencé en 2011 par d'anciens étudiants, nous aura permis de travailler sur plusieurs domaines qui sont l’électronique, l’automatique ou encore l’informatique industrielle.
