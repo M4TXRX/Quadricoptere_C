@@ -18,7 +18,7 @@ Après de nombreuses difficultés rencontrées et surmontées nous avons été l
 
 __Tous les détails du projet sont disponibles dans "Rapport_projet.pdf".__
 
-Vidéo de démo du quadricoptère : https://www.youtube.com/watch?v=TGFyJ7FYfgc
+Vidéo de démo du quadricoptère : https://www.youtube.com/watch?v=q9cdUGti6m0&feature=youtu.be
 
 	
 ## Setup
